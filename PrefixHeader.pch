@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  EMAutolayout
+//
+//  Created by Mona Zhang on 10/28/15.
+//  Copyright © 2015 Eskimona. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define BOX(x) x.layer.borderWidth = 1; x.layer.borderColor = [UIColor salmonColor].CGColor; NSLog(@"%s frame = %@, bounds = %@", #x, NSStringFromCGRect(x.frame), NSStringFromCGRect(x.bounds));
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
